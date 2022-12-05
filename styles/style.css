@@ -65,6 +65,7 @@
   bottom: 0;
   width: 765px;
   height: 608px;
+  z-index: -1;
 }
 
 /* ниже мы привели пример двух селекторов, чтобы вы вспомнили запись элемента */
@@ -75,7 +76,7 @@
   right: 0;
   top: 64px;
   background-color: #2f80ed;
-  z-index: -1;
+  z-index: -2;
 }
 
 
@@ -176,6 +177,7 @@
 }
 
 .table__heading {
+  margin-top: 0;
   margin-bottom: 0;
   line-height: 1.15;
   font-size: 24px;
@@ -184,6 +186,7 @@
 
 .table__text {
   margin-top: 20px;
+  margin-bottom: 0;
   line-height: 1.2;
   font-size: 18px;
   font-weight: normal;
@@ -219,6 +222,7 @@
 .feynman__subtitle {
   width: 648px;
   margin-top: 70px;
+  margin-bottom: 0;
   text-align: center;
   line-height: 51px;
   font-size: 36px;
@@ -305,7 +309,7 @@
 }
 
 .table__heading_theme_dark {
-  margin-bottom: 20px;
+  margin-bottom: 0px;
   line-height: 1.15;
   font-size: 24px;
   font-weight: 600;
@@ -353,7 +357,7 @@
   padding: 0;
 }
 
-.footer__column_content-copyright {
+.footer__column_content_copyright {
   display: flex;
   flex-basis: 711px;
   flex-direction: column;
@@ -376,12 +380,12 @@
   font-weight: normal;
 }
 
-.footer__column_content-info {
+.footer__column_content_info {
   display: flex;
   flex-direction: column;
 }
 
-.footer__column_content-social {
+.footer__column_content_social {
   display: flex;
   flex-direction: column;
 }
