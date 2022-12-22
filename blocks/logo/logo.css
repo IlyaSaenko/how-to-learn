@@ -1,0 +1,8 @@
+.logo {
+    transition: ease .2s;
+    background-size: cover;
+  }
+  
+  .logo:hover {
+    opacity: 50%;
+  }
