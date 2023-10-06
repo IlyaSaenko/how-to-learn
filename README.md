@@ -1,6 +1,6 @@
 # Проектная работа "Научиться учиться"
 ### Автор: Илья Саенко
-(https://github.com/IlyaSaenko/how-to-learn)
+## Ссылка на проект: https://github.com/IlyaSaenko/how-to-learn
 
 ---
 
